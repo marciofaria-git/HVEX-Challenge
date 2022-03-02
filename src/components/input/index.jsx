@@ -2,9 +2,11 @@ import {InputForm} from './styled'
 import React,{ forwardRef } from 'react'
 
 
-const Input = forwardRef((props, ref) => {
+const Input = (props, ref) => (
+   <InputForm {...props} ref={ref} />
+  
+)
     
-    return <InputForm {...props} ref={ref} />
-  });
+  
 
-  export default Input;
+  export default forwardRef(Input);
