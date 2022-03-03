@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
+import { useRouter } from 'next/router'
 import Image from "next/image";
 import { Container, Button, Label, Name, ErrorMessage } from "./styled";
 import Input from "../input/index";
@@ -12,10 +13,10 @@ export default function RegisterForm() {
     formState: { errors, isValid },
   } = useForm();
 
-
+const router = useRouter();
   const onSubmit = (data) => {
-    
-    console.log(data);
+    router.push("/")
+    console.log("Cadastrado com Sucesso");
   };
 
   const inputRef = React.createRef();
@@ -23,7 +24,7 @@ export default function RegisterForm() {
   return (
     <Container onSubmit={handleSubmit(onSubmit)}>
       <Image src="/images/Logo_b.svg" width="399px" height="73px" />
-      <Label className="label">
+      <Label>
         E-mail
         <Input
           ref={inputRef}
@@ -32,7 +33,7 @@ export default function RegisterForm() {
         />
         <ErrorMessage>{errors.userEmail && "Email invalido"}</ErrorMessage>
       </Label>
-      <Label className="label">
+      <Label>
         Senha
         <Input
           type="password"
@@ -44,7 +45,7 @@ export default function RegisterForm() {
           })}
         />
       </Label>
-      <Label className="label">
+      <Label>
         Confirmar Senha
         <Input
           type="password"

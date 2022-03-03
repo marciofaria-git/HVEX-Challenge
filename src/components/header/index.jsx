@@ -1,22 +1,27 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
-import { Container, Content, UserLogout, UserName, Separator } from "./styled";
+import {
+  Container,
+  Content,
+  UserLogout,
+  UserName,
+  Separator,
+  Image,
+} from "./styled";
 
-export default function Header({login}) {
+export default function Header({ login }) {
   return (
     <Container>
-      <Image src="/images/logo.svg" width="257px" height="47px" />
+      <Image src="/images/logo.svg" />
       <Content>
-          <UserName>
-              {login.user}
-          </UserName>
-          <Separator/>
-          <Link href="/">
-          <UserLogout>Sair</UserLogout>
-          </Link>
-          
+      <UserName>{login.user}</UserName>
+      <Separator />
+      <Link href="/">
+      <UserLogout>Sair</UserLogout>
+      </Link>
+      
       </Content>
+      
     </Container>
   );
 }

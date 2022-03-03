@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Container, Button, Label, Name } from "./styled";
+import { Container, Button, Label, Name, ErrorMessage } from "./styled";
 import Input from "../input/index";
 
 import { useForm } from "react-hook-form";
@@ -33,23 +33,25 @@ export default function Login({login}) {
         E-mail
         <Input
           type="text"
+          inputBorder={errors.userEmail ? "1px solid #CF1F2A" : null}
           {...register("userEmail", {
             required: true,
             validate: (userEmail) => userEmail == login.email,
           })}
         />
-        <p>{errors.userEmail && "O email que voce inseriu nao existe"}</p>
+        <ErrorMessage>{errors.userEmail && "O email que voce inseriu nao existe"}</ErrorMessage>
       </Label>
       <Label className="label">
         Senha
         <Input
           type="password"
+          inputBorder={errors.userPassword ? "1px solid #CF1F2A" : null}
           {...register("userPassword", {
             required: true,
             validate: (userPassword) => userPassword == login.password,
           })}
         />
-        <p>{errors.userPassword && "A senha inserida está incorreta"}</p>
+        <ErrorMessage>{errors.userPassword && "A senha inserida está incorreta"}</ErrorMessage>
       </Label>
 
       <Button type="submit">LOGIN</Button>

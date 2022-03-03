@@ -14,6 +14,10 @@ export const Container = styled.form`
   box-sizing: border-box;
   box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
+
+  @media (max-width: 450px) {
+    width:350px;
+   }
 `;
 
 export const Button = styled.button`

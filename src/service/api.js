@@ -1,11 +1,11 @@
 import axios from "axios"
 
-const token = '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'
+let tokenStr = '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'
+
 const api = axios.create({
     baseURL:"https://api.github.com/users/",
-    Headers:{
-        Authorization: 'Bearer' + token
-    }
+     headers: {"Authorization" : `Bearer ${tokenStr}`}
+    
 })
 
 export default api

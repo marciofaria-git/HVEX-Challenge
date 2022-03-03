@@ -12,4 +12,10 @@ border-radius: 8px;
 padding:28px;
 
 font-size:18px;
+
+@media (max-width: 767px) {
+    width: 295px;
+    flex-wrap: nowrap;
+  }
+
 `
