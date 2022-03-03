@@ -6,7 +6,7 @@ let apiKey = process.env.API_KEY
 
 const api = axios.create({
     baseURL:"https://api.github.com/users/",
-     headers: {"Authorization" : `Bearer ${apiKey}`}
+     headers: {"Authorization" : `token ${apiKey}`}
     
 })
 
