@@ -2,11 +2,12 @@ import axios from "axios"
 
 
 
-let apiKey = process.env.API_KEY
+let username = "marciofaria-git"
+let password = "oreo@123"
 
 const api = axios.create({
     baseURL:"https://api.github.com/users/",
-     headers: {"Authorization" : `token ${apiKey}`}
+     headers: {"Authorization" : `Basic ${btoa(`${username}:${password}`)}`}
     
 })
 
