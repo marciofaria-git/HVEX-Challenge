@@ -1,6 +1,6 @@
 
 export const login = {
-    email:"devmarcio@gmail.com",
-    password:2020123,
+    email:"joao_hvex@gmail.com",
+    password:"hvex9090",
     user:"Joao Souza"
 }

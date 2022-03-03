@@ -1,6 +1,6 @@
 import axios from "axios"
 
-let tokenStr = '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'
+let tokenStr = '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'
 
 const api = axios.create({
     baseURL:"https://api.github.com/users/",
