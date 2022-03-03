@@ -47,6 +47,10 @@ Criar um arquivo .env na raiz da pasta.<br />
 Adicionar NEXT_PUBLIC_API_TOKEN="Seu personal token aqui" no arquivo criado.<br />
 Feito isso as requisiçoes ja estao validadas e prontas para serem feitas
 
+# Informaçoes de Login
+Email: hvex_labs@gmail.com <br/>
+Senha: hvexlabs
+
 ## 💻 Projeto
 
 A aplicação permite ao usuário realizar uma busca por usuarios do GitHub
