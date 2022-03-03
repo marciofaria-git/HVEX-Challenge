@@ -53,8 +53,10 @@ A aplicação permite ao usuário realizar uma busca por usuarios do GitHub
 
 
 ## Responsividade
+
+### Tela Inicial
 <h1 align="center">
-    <img alt="hvex" src="https://s7.gifyu.com/images/loginResponsividade44cc422920fc3edb.gif" />
+    <img alt="hvex" src="https://s7.gifyu.com/images/resDash_158495d5c9310330d.gif" />
 </h1>
 
 
