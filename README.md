@@ -19,6 +19,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Axios](https://axios-http.com/docs/intro)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Styled Components](https://styled-components.com/docs)
+- [Vercel](https://vercel.com/)
 
 ## 🚀 Como executar
 
