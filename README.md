@@ -41,10 +41,10 @@ $ yarn ou npm install
 $ yarn dev ou npm dev
 ```
 # Requisiçaoes com API-GitHub
-É nescessario criar um personal token 
-[Criar Personal Token](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-Criar um arquivo .env na raiz da pasta
-e adicionar NEXT_PUBLIC_API_TOKEN="Seu personal token aqui" no arquivo criado
+É nescessario criar um personal token <br />
+[Criar Personal Token](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)<br />
+Criar um arquivo .env na raiz da pasta.<br />
+Adicionar NEXT_PUBLIC_API_TOKEN="Seu personal token aqui" no arquivo criado.<br />
 Feito isso as requisiçoes ja estao validadas e prontas para serem feitas
 
 ## 💻 Projeto
