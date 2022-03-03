@@ -6,7 +6,7 @@
 </h1>
 # Dashboard
 <h1 align="center">
-    <img alt="hvex" src="https://s7.gifyu.com/images/dashboard.gif" />
+    <img alt="hvex" src="https://s7.gifyu.com/images/dashboardec18b24c10b27ccd.gif" />
 </h1>
 <br>
 
