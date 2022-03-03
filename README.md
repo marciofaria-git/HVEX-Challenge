@@ -56,7 +56,9 @@ Senha: hvexlabs
 A aplicação permite ao usuário realizar uma busca por usuarios do GitHub
 
 ### Link do Deploy
-(https://hvex-challenge.vercel.app/)
+(https://hvex-challenge.vercel.app/)<br/>
+Poder ser acessado de dispositiveis Mobile e Desktop
+
 
 ## Responsividade
 
