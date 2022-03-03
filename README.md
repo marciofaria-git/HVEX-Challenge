@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ git clone https://github.com/marciofaria-git/desafio-tech.git
+$ git clone git@github.com:marciofaria-git/HVEX-Challenge.git
 $ cd desafio-tech
 ```
 
@@ -40,12 +40,16 @@ $ yarn ou npm install
 # Iniciar o projeto
 $ yarn dev ou npm dev
 ```
+#Requisiçaoes com API-GitHub
+É nescessario criar um personal token 
+[Criar Personal Token](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+Criar um arquivo .env na raiz da pasta
+e adicionar NEXT_PUBLIC_API_TOKEN="Seu personal token aqui" no arquivo criado
+Feito isso as requisiçoes ja estao validadas e prontas para serem feitas
 
 ## 💻 Projeto
 
 A aplicação permite ao usuário realizar uma busca por usuarios do GitHub
-
-
 
 
 ## Responsividade
