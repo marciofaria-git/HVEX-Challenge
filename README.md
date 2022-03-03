@@ -2,7 +2,7 @@
 
 # Tela Inicial
 <h1 align="center">
-    <img alt="hvex" src="https://s7.gifyu.com/images/login.gif" />
+    <img alt="hvex" src="https://s7.gifyu.com/images/login449c9d3f3c74f1f4.gif" />
 </h1>
 # Dashboard
 <h1 align="center">
