@@ -57,7 +57,7 @@ A aplicação permite ao usuário realizar uma busca por usuarios do GitHub
 
 ### Link do Deploy
 (https://hvex-challenge.vercel.app/)<br/>
-Poder ser acessado de dispositiveis Mobile e Desktop
+Poder ser acessado de dispositivos Mobile e Desktop
 
 
 ## Responsividade
