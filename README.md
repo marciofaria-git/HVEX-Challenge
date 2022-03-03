@@ -49,7 +49,7 @@ A aplicação permite ao usuário realizar uma busca por usuarios do GitHub
 
 
 ## Responsividade
-<img alt="Letmeask" src="https://s7.gifyu.com/images/loginResponsividade44cc422920fc3edb.gif" />
+<img alt="hvex" src="https://s7.gifyu.com/images/loginResponsividade44cc422920fc3edb.gif" />
 
 
 
