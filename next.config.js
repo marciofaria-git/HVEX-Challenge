@@ -1,5 +1,7 @@
-module.exports = {
-  env: {
-    API_KEY:"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"
-  }
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
 }
+
+module.exports = nextConfig
+
