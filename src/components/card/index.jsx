@@ -51,6 +51,5 @@ export default function Card({ data }) {
         </UserLink>
       </UserProfile>
     </DisplayUser>
-    
   );
 }

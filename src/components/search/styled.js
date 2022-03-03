@@ -7,6 +7,7 @@ flex-direction:column;
 export const Content = styled.div`
 display:flex;
 flex-direction:row;
+margin-top:10px;
 gap:1rem;
 `
 export const IconBox = styled.button`

@@ -18,4 +18,9 @@ font-size:18px;
     flex-wrap: nowrap;
   }
 
+  @media (max-width: 390px) {
+    width: 220px;
+    flex-wrap: nowrap;
+  }
+
 `

@@ -14,6 +14,12 @@ export const Container = styled.div`
     height: 119px;
     gap: 2rem;
   }
+
+  @media (max-width: 390px) {
+    width: 100%;
+    height: 119px;
+    gap: 0rem;
+  }
 `;
 
 export const Image = styled.img`
@@ -25,6 +31,11 @@ export const Image = styled.img`
     width: 187px;
     height: 34px;
   }
+
+  @media (max-width: 390px) {
+    width: 140px;
+    height: 34px;
+  }
 `;
 
 export const Content = styled.div`
@@ -33,6 +44,11 @@ export const Content = styled.div`
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  @media (max-width: 390px) {
+    width: 100%;
+    height: 119px;
+    gap: 2rem;
+  }
 `;
 
 export const UserName = styled.span`
@@ -45,9 +61,7 @@ export const UserName = styled.span`
 
   color: #ffffff;
 
-  @media (max-width: 767px) {
-    
-  }
+  
 `;
 export const UserLogout = styled.p`
   font-family: Roboto;
@@ -64,9 +78,7 @@ export const UserLogout = styled.p`
     transform: scale(1.1);
     border-bottom: 1px solid;
   }
-  @media (max-width: 767px) {
-    grid-area: logout;
-  }
+
 `;
 
 export const Separator = styled.div`

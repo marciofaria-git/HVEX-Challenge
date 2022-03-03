@@ -5,7 +5,7 @@ export const Container = styled.form`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
   width: 608px;
   height: 675px;
 
@@ -48,6 +48,16 @@ export const Name = styled.a`
 
 export const ErrorMessage = styled.p`
 color:#CF1F2A;
+padding: 9px 0 0 10px;;
 
 `;
 
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0 0 0;
+
+  @media (max-width: 450px) {
+    font-size: 18px;
+  }
+`;

@@ -12,6 +12,11 @@ export const ContainerInfo = styled.div`
     justify-content: center;
     height: 125px;
   }
+
+  @media (max-width: 390px) {
+    justify-content: center;
+    height: 125px;
+  }
   
   
 `;
@@ -51,6 +56,12 @@ export const DisplayUser = styled.div`
     width: 388px;
     height: 427px;
   }
+
+  @media (max-width: 390px) {
+    jdisplay: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 427px;
 `;
 export const UserName = styled.div`
   font-family: Roboto;

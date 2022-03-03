@@ -5,7 +5,7 @@ export const Container = styled.form`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   width: 608px;
   height: 514px;
 
@@ -15,16 +15,25 @@ export const Container = styled.form`
   box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 
-  
   @media (max-width: 450px) {
-   width:350px;
+    width: 350px;
+  }
+`;
+
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0 0 0;
+
+  @media (max-width: 450px) {
+    font-size: 14px;
   }
 `;
 
 export const Button = styled.button`
-transition: all .3s ease;
-text-transform: uppercase;
-text-align: center;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  text-align: center;
   color: white;
   font-size: 24px;
   font-weight: 700;
@@ -34,12 +43,15 @@ text-align: center;
   border-radius: 8px;
   border: none;
   cursor: pointer;
-  
+
   &:hover {
     filter: brightness(1.5);
     transform: scale(0.9);
-}
+  }
 
+  @media (max-width: 450px) {
+    width: 150px;
+  }
 `;
 export const Label = styled.label`
   display: flex;
@@ -54,7 +66,15 @@ export const Name = styled.a`
 `;
 
 export const ErrorMessage = styled.p`
-color:#CF1F2A;
-
+  color: #cf1f2a;
+  padding: 9px 0 0 10px;;
 `;
 
+export const Img = styled.img`
+width:399px;
+height:73px;
+
+@media (max-width: 450px) {
+  width: 300px;
+}
+`

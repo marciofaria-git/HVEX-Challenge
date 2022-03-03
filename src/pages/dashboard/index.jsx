@@ -6,6 +6,7 @@ import Search from "../../components/search/index";
 import api from "../../service/api";
 import { login } from "../../service/login";
 
+
 function Dashboard() {
   //Estados
   const [data, setData] = useState("");
@@ -15,11 +16,12 @@ function Dashboard() {
     try {
       const res = await api.get(request);
       setData(res.data);
-      console.log(res.data);
+      
     } catch (error) {
       console.log(error);
     }
   };
+
 
   return (
     <Container>
@@ -28,7 +30,8 @@ function Dashboard() {
         handleOnChange={(e) => setRequest(e.target.value)}
         handleSubmit={onSubmit}
       />
-      {data.length !== 0 && <Card data={data} />}
+
+      {data.length !== 0 ? <Card data={data} /> : null}
     </Container>
   );
 }
