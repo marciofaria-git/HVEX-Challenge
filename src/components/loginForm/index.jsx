@@ -19,20 +19,19 @@ export default function Login({ login }) {
   const {
     register,
     handleSubmit,
-    getValues,
     formState: { errors, isValid },
   } = useForm();
 
   const router = useRouter();
 
+  //Funcaçao para fazer request da api
   const onSubmit = (data, e) => {
     e.preventDefault();
     router.push("/dashboard");
-    console.log(data);
+
   };
 
-  console.log(login);
-  const inputRef = React.createRef();
+  
 
   return (
     <Container onSubmit={handleSubmit(onSubmit)}>

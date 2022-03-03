@@ -20,6 +20,7 @@ export default function RegisterForm() {
     formState: { errors, isValid },
   } = useForm();
 
+  //Post para cadastro
   const router = useRouter();
   const onSubmit = (data) => {
     router.push("/");

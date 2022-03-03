@@ -1,6 +1,7 @@
 
+//Usuarios cadastrados
 export const login = {
-    email:"joao_hvex@gmail.com",
-    password:"hvex9090",
-    user:"Joao Souza"
+    email:"hvex_labs@gmail.com",
+    password:"hvexlabs",
+    user:"Rafael Souza"
 }

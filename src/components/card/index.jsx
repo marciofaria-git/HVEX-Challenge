@@ -1,3 +1,4 @@
+//Importaçoes Styles
 import {
   DisplayUser,
   UserRepo,
@@ -12,11 +13,10 @@ import {
   UserEmail,
   ContainerInfo,
   UserLogin,
-  ContentRepo,
   ContainerHeader,
   Repo,
 } from "./styled";
-import Image from "next/image";
+
 
 export default function Card({ data }) {
   return (
