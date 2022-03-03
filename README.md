@@ -26,7 +26,7 @@ Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
 $ git clone git@github.com:marciofaria-git/HVEX-Challenge.git
-$ cd desafio-tech
+$ cd HVEX-Challenge
 ```
 
 Para iniciá-lo, siga os passos abaixo:
