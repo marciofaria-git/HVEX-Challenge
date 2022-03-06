@@ -41,7 +41,7 @@ $ yarn ou npm install
 # Iniciar o projeto
 $ yarn dev ou npm dev
 ```
-# Requisiçaoes com API-GitHub
+# Requisiçoes com API-GitHub
 É nescessario criar um personal token <br />
 [Criar Personal Token](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)<br />
 Criar um arquivo .env na raiz da pasta.<br />
